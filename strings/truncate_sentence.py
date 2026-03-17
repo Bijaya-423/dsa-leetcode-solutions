@@ -40,6 +40,7 @@ result = solution.truncateSentences(s, k)
 print(result)  # Output: "whats the update on"
 
 
+
 s = "give me the details of the meeting"
 k = 5
 solution = Solution()
