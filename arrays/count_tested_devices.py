@@ -31,6 +31,7 @@ class Solution:
                 tested += 1
         
         return tested
+        
 
 #example
 solution = Solution()

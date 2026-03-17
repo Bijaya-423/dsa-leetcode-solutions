@@ -11,6 +11,7 @@ Find the minimum integer k such that Koko can eat all bananas within h hours.
 Approach:
 - Binary Search on the answer (k)
 - Search space: 1 to max(piles)
+
 - Check how many hours are needed for a given k
 
 Time Complexity: O(n log m)
@@ -19,6 +20,7 @@ Space Complexity: O(1)
 
 import math
 from typing import List
+
 
 
 class Solution:
