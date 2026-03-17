@@ -18,6 +18,7 @@ class Solution:
             while left < right and not s[left].isalnum():
                 left += 1
                 
+                
             while left < right and not s[right].isalnum():
                 right -= 1
                 
