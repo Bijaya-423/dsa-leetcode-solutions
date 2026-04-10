@@ -6,6 +6,8 @@ class Solution:
         rows , cols = len(matrix) , len(matrix[0])
         dp = [ [0] * cols for _ in range(rows)]
         max_side = 0
+
+        
         
         for i in range(rows):
             for j in range(cols):
@@ -20,3 +22,5 @@ class Solution:
                         )
                     max_side = max(max_side, dp[i][j])
         return max_side * max_side
+
+
