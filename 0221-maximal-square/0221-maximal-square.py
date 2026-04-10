@@ -3,10 +3,10 @@ class Solution:
         if not matrix:
             return 0
         
-        rows, cols = len(matrix), len(matrix[0])
+        rows , cols = len(matrix) , len(matrix[0])
         dp = [ [0] * cols for _ in range(rows)]
         max_side = 0
-
+        
         for i in range(rows):
             for j in range(cols):
                 if matrix[i][j] == "1":
