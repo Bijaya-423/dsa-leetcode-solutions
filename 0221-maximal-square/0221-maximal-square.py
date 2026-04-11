@@ -2,11 +2,10 @@ class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
         if not matrix:
             return 0
-        
-        rows , cols = len(matrix) , len(matrix[0])
-        dp = [ [0] * cols for _ in range(rows)]
-        max_side = 0
 
+        rows, cols = len(matrix), len(matrix[0])
+        dp = [[0]*cols for _ in range(rows)]
+        max_side = 0
         
         
         for i in range(rows):
