@@ -4,5 +4,5 @@ class Solution:
 
         for n in nums:
             result . append (n * n)
-        result.sort()
+        result . sort()
         return result
